@@ -55,7 +55,7 @@ resolve_hash() {
 }
 
 rm -rf $KODI_DIR
-git clone --depth=1 https://github.com/xbmc/xbmc.git -b $1 $KODI_DIR
+git clone --depth=1 https://github.com/E-PSN/MediaBox-Kodi.git -b $1 $KODI_DIR
 
 # p8-platform
 REPO=$(cat $KODI_DIR/project/cmake/addons/depends/common/p8-platform/p8-platform.txt | awk '{print $2}')
