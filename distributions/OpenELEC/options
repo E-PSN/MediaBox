@@ -1,18 +1,18 @@
 # Name of the Distro to build (full name, without special characters)
-  DISTRONAME="OpenELEC"
+  DISTRONAME="MediaBox"
 
 # short project description
-  DESCRIPTION="OpenELEC is a fast and user-friendly Kodi Entertainment Center distribution."
+  DESCRIPTION="MediaBox is a modern and high quality Entertainment Center"
 
 # Welcome Message for e.g. SSH Server (up to 5 Lines)
   GREETING0="##############################################"
-  GREETING1="#                  OpenELEC                  #"
-  GREETING2="#             http://openelec.tv             #"
+  GREETING1="#                  MediaBox                  #"
+  GREETING2="#       http://mediabox.e-psn.gr             #"
   GREETING3="##############################################"
   GREETING4=""
 
 # Root password to integrate in the target system
-  ROOT_PASSWORD="openelec"
+  ROOT_PASSWORD="mboxroot"
 
 # Install glibc locales to the build (yes / no)
   GLIBC_LOCALES="yes"
